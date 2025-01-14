@@ -62,6 +62,7 @@ int main() {
         printf("popped %d\n", peek(stack));
         pop(stack);
     }
+    free(stack);
 
     return 0;
 }
